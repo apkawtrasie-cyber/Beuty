@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   turbopack: {},
   allowedDevOrigins: ["127.0.0.1", "localhost"],
   images: {
+    formats: ["image/webp", "image/avif"],
     remotePatterns: [
       {
         protocol: "https",
