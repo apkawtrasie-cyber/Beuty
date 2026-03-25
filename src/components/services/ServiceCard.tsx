@@ -37,11 +37,16 @@ export function ServiceCard({ service, index, priority = false }: ServiceCardPro
     }
   };
 
+  const getInitialX = (idx: number) => {
+    const isFirstRow = idx < 3;
+    return isFirstRow ? 100 : -100; // First row from right (+100), second row from left (-100)
+  };
+
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, y: 40 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
+      initial={{ opacity: 0, x: getInitialX(index) }}
+      animate={inView ? { opacity: 1, x: 0 } : {}}
       transition={{ duration: 0.7, delay: getDelay(index), ease: "easeOut" }}
       className="relative overflow-hidden bg-[var(--color-cream)] cursor-pointer group"
       style={{ aspectRatio: "3/4" }}
