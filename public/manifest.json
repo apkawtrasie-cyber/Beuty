@@ -1,0 +1,26 @@
+{
+  "name": "RAW RITUAL — Luksusowy Salon Beauty",
+  "short_name": "RAW RITUAL",
+  "description": "Ekskluzywny salon beauty w Warszawie. Zarezerwuj wizytę online.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDF8F5",
+  "theme_color": "#FDF8F5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["beauty", "lifestyle", "health"],
+  "lang": "pl"
+}

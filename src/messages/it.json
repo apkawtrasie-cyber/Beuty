@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "Chi siamo",
+    "services": "Servizi",
+    "contact": "Contatti",
+    "booking": "Prenota"
+  },
+  "hero": {
+    "label": "Studio di Bellezza di Lusso",
+    "description": "Momenti che curano. Rituali che trasformano.",
+    "button": "Scopri"
+  },
+  "about": {
+    "label": "Chi siamo",
+    "lines": [
+      "Crediamo che la bellezza",
+      "nasca dall'autenticità.",
+      "RAW RITUAL è uno spazio",
+      "dove la cura del corpo",
+      "diventa un vero rituale."
+    ],
+    "description": "Il nostro team di specialiste esperte unisce le tecnologie più moderne a un approccio olistico alla bellezza. Ogni trattamento è progettato individualmente — perché ogni cliente è unica.",
+    "footer": "Dal 2016 a Varsavia"
+  },
+  "services": {
+    "label": "I nostri servizi",
+    "titleLine1": "Rituali creati",
+    "titleLine2": "per voi",
+    "hint": "Passa sopra una scheda o toccala per vedere i dettagli del trattamento.",
+    "items": {
+      "01": { "title": "Manicure", "category": "Mani & Unghie", "description": "Manicure classica, smalto semipermanente e cura delle cuticole. Utilizziamo esclusivamente prodotti premium certificati, sicuri per le vostre unghie." },
+      "02": { "title": "Pedicure", "category": "Piedi & Unghie", "description": "Cura completa dei piedi: pedicure SPA, pedicure medica, stilizzazione delle unghie. Rigenerazione e rinfresco dei piedi stanchi in un'atmosfera rilassante." },
+      "03": { "title": "Cura del viso", "category": "Viso & Pelle", "description": "Rituali viso personalizzati adattati al vostro tipo di pelle. Pulizia, idratazione, illuminazione — risultati visibili dalla prima seduta." },
+      "04": { "title": "Massaggio rilassante", "category": "Corpo & Benessere", "description": "Massaggi di tutto il corpo con tecniche svedese e aromaterapeutica. Riduciamo le tensioni muscolari e ripristiniamo l'armonia di corpo e mente." },
+      "05": { "title": "Stilizzazione sopracciglia", "category": "Sopracciglia & Ciglia", "description": "Stilizzazione e correzione precisa delle sopracciglia con filo e cera. Progettazione della forma adattata ai lineamenti del viso da un'artista certificata." },
+      "06": { "title": "Rituale Prestige", "category": "Pacchetto Lusso", "description": "Il nostro rituale di punta: 3 ore con cura del viso, massaggio alla schiena e alle mani, e aromaterapia. L'esperienza beauty di lusso completa." }
+    }
+  },
+  "cta": {
+    "label": "Prenotazione online",
+    "subLabel": "Prenota il tuo rituale",
+    "button": "Prenota un appuntamento",
+    "perk1": "Prenotazione 24/7 online",
+    "perk2": "Appuntamenti lun.–sab.",
+    "perk3": "Conferma via SMS"
+  },
+  "contact": {
+    "label": "Contatti",
+    "title": "Trovaci",
+    "titleAccent": "a Varsavia",
+    "directions": "Apri in Google Maps",
+    "weekdays": "Lunedì — Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica",
+    "closed": "Chiuso",
+    "hoursLabel": "Orari di apertura"
+  },
+  "footer": {
+    "description": "Studio di bellezza di lusso a Varsavia. Rituali di cura per l'anima e il corpo.",
+    "copyright": "Tutti i diritti riservati.",
+    "navTitle": "Navigazione"
+  },
+  "booking": {
+    "backLink": "← Torna alla home",
+    "label": "Prenotazione online",
+    "title": "Prenota il tuo",
+    "titleAccent": "RAW RITUAL",
+    "description": "Scegli un servizio, una specialista e un orario. Riceverai una conferma via SMS.",
+    "stepService": "Servizio",
+    "stepSpecialist": "Specialista",
+    "stepDate": "Appuntamento",
+    "stepConfirmation": "Conferma",
+    "serviceTitle": "Scegli un servizio",
+    "specialistTitle": "Scegli una specialista",
+    "dateTitle": "Scegli una data",
+    "timeTitle": "Scegli un orario",
+    "dayNames": ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"],
+    "monthNames": ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"],
+    "summaryTitle": "La tua prenotazione",
+    "next": "Avanti",
+    "back": "Indietro",
+    "submit": "Invia prenotazione",
+    "mobileButton": "Prenota appuntamento",
+    "formName": "Nome completo",
+    "formPhone": "Numero di telefono",
+    "formEmail": "Indirizzo e-mail",
+    "formNote": "Note (opzionale)",
+    "successTitle": "Prenotazione confermata!",
+    "successSubtitle": "Non vediamo l'ora di vedervi.",
+    "successBack": "Torna alla home",
+    "services": {
+      "manicure": "Manicure",
+      "pedicure": "Pedicure",
+      "twarz": "Cura del viso",
+      "masaz": "Massaggio rilassante",
+      "brwi": "Stilizzazione sopracciglia",
+      "prestige": "Rituale Prestige"
+    },
+    "specialistRoles": {
+      "anna": "Specialista SPA & Viso",
+      "marta": "Manicure & Pedicure",
+      "julia": "Massaggio & Rituali corpo"
+    }
+  },
+  "lang": {
+    "de": "Deutsch",
+    "pl": "Polski",
+    "fr": "Français",
+    "it": "Italiano",
+    "en": "English"
+  },
+  "meta": {
+    "homeTitle": "RAW RITUAL — Studio di Bellezza di Lusso",
+    "homeDescription": "RAW RITUAL è uno studio di bellezza esclusivo a Varsavia. Cura del viso, manicure, massaggi e rituali cosmetici. Prenota online.",
+    "bookingTitle": "Prenotazione online — RAW RITUAL",
+    "bookingDescription": "Prenota il tuo appuntamento da RAW RITUAL online. Scegli un servizio, un orario e una specialista."
+  }
+}

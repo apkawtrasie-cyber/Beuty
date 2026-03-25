@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "booking": "Termin buchen"
+  },
+  "hero": {
+    "label": "Luxuriöses Beauty-Studio",
+    "description": "Momente, die pflegen. Rituale, die verwandeln.",
+    "button": "Entdecken"
+  },
+  "about": {
+    "label": "Über uns",
+    "lines": [
+      "Wir glauben, dass Schönheit",
+      "aus Echtheit entsteht.",
+      "RAW RITUAL ist ein Raum,",
+      "wo Körperpflege",
+      "zum wahren Ritual wird."
+    ],
+    "description": "Unser Team erfahrener Spezialisten verbindet modernste Technologien mit einem ganzheitlichen Ansatz für Schönheit. Jede Behandlung wird individuell gestaltet – denn jede Kundin ist einzigartig.",
+    "footer": "Seit 2016 in Warschau"
+  },
+  "services": {
+    "label": "Leistungen",
+    "titleLine1": "Rituale geschaffen",
+    "titleLine2": "für Sie",
+    "hint": "Fahren Sie über eine Karte oder tippen Sie darauf, um Details zu sehen.",
+    "items": {
+      "01": { "title": "Maniküre", "category": "Hände & Nägel", "description": "Klassische Maniküre, Hybridlack und Nagelhautpflege. Wir verwenden ausschließlich zertifizierte Premium-Produkte, die sicher für Ihre Nägel sind." },
+      "02": { "title": "Pediküre", "category": "Füße & Nägel", "description": "Komplexe Fußpflege: SPA-Pediküre, medizinische Pediküre, Nagelgestaltung. Regeneration und Erfrischung müder Füße in entspannter Atmosphäre." },
+      "03": { "title": "Gesichtspflege", "category": "Gesicht & Haut", "description": "Personalisierte Gesichtsrituale, angepasst an Ihren Hauttyp. Reinigung, Feuchtigkeitspflege, Aufhellung – Ergebnisse ab der ersten Sitzung sichtbar." },
+      "04": { "title": "Entspannungsmassage", "category": "Körper & Wellness", "description": "Ganzkörpermassagen mit schwedischer und Aromatherapie-Technik. Wir reduzieren Muskelverspannungen und stellen die Harmonie von Körper und Geist wieder her." },
+      "05": { "title": "Augenbrauen-Styling", "category": "Brauen & Wimpern", "description": "Präzises Formen und Korrigieren der Augenbrauen mit Faden und Wachs. Formgebung, angepasst an die Gesichtszüge, von einer zertifizierten Brauen-Artistin." },
+      "06": { "title": "Prestige-Ritual", "category": "Luxus-Paket", "description": "Unser Flaggschiff-Ritual: 3 Stunden mit Gesichtspflege, Rücken- und Handmassage sowie Aromatherapie. Das komplette Luxus-Beauty-Erlebnis." }
+    }
+  },
+  "cta": {
+    "label": "Online-Buchung",
+    "subLabel": "Buchen Sie Ihr Ritual",
+    "button": "Termin buchen",
+    "perk1": "24/7 Online-Buchung",
+    "perk2": "Termine Mo.–Sa.",
+    "perk3": "SMS-Bestätigung"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Finden Sie uns",
+    "titleAccent": "in Warschau",
+    "directions": "Route planen",
+    "weekdays": "Montag – Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "closed": "Geschlossen",
+    "hoursLabel": "Öffnungszeiten"
+  },
+  "footer": {
+    "description": "Luxuriöses Beauty-Studio in Warschau. Pflegerituale für Seele und Körper.",
+    "copyright": "Alle Rechte vorbehalten.",
+    "navTitle": "Navigation"
+  },
+  "booking": {
+    "backLink": "← Zurück zur Startseite",
+    "label": "Online-Buchung",
+    "title": "Buchen Sie Ihr",
+    "titleAccent": "RAW RITUAL",
+    "description": "Wählen Sie eine Leistung, eine Spezialistin und einen Termin. Sie erhalten eine SMS-Bestätigung.",
+    "stepService": "Leistung",
+    "stepSpecialist": "Spezialistin",
+    "stepDate": "Termin",
+    "stepConfirmation": "Bestätigung",
+    "serviceTitle": "Leistung wählen",
+    "specialistTitle": "Spezialistin wählen",
+    "dateTitle": "Datum wählen",
+    "timeTitle": "Uhrzeit wählen",
+    "dayNames": ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
+    "monthNames": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
+    "summaryTitle": "Ihre Buchung",
+    "next": "Weiter",
+    "back": "Zurück",
+    "submit": "Buchung absenden",
+    "mobileButton": "Termin buchen",
+    "formName": "Vollständiger Name",
+    "formPhone": "Telefonnummer",
+    "formEmail": "E-Mail-Adresse",
+    "formNote": "Anmerkungen (optional)",
+    "successTitle": "Buchung bestätigt!",
+    "successSubtitle": "Wir freuen uns auf Ihren Besuch.",
+    "successBack": "Zurück zur Startseite",
+    "services": {
+      "manicure": "Maniküre",
+      "pedicure": "Pediküre",
+      "twarz": "Gesichtspflege",
+      "masaz": "Entspannungsmassage",
+      "brwi": "Augenbrauen-Styling",
+      "prestige": "Prestige-Ritual"
+    },
+    "specialistRoles": {
+      "anna": "SPA & Gesichtsspezialistin",
+      "marta": "Maniküre & Pediküre",
+      "julia": "Massage & Körperrituale"
+    }
+  },
+  "lang": {
+    "de": "Deutsch",
+    "pl": "Polski",
+    "fr": "Français",
+    "it": "Italiano",
+    "en": "English"
+  },
+  "meta": {
+    "homeTitle": "RAW RITUAL — Luxuriöses Beauty-Studio",
+    "homeDescription": "RAW RITUAL ist ein exklusives Beauty-Studio in Warschau. Gesichtspflege, Maniküre, Massagen und Kosmetikrituale für anspruchsvolle Kundinnen. Buchen Sie online.",
+    "bookingTitle": "Online-Buchung — RAW RITUAL",
+    "bookingDescription": "Buchen Sie Ihren Termin bei RAW RITUAL online. Wählen Sie eine Leistung, einen Termin und eine Spezialistin."
+  }
+}

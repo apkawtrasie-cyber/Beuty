@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "booking": "Book now"
+  },
+  "hero": {
+    "label": "Luxury Beauty Studio",
+    "description": "Moments that nurture. Rituals that transform.",
+    "button": "Explore"
+  },
+  "about": {
+    "label": "About us",
+    "lines": [
+      "We believe that beauty",
+      "is born from authenticity.",
+      "RAW RITUAL is a space",
+      "where body care",
+      "becomes a true ritual."
+    ],
+    "description": "Our team of experienced specialists combines the latest technologies with a holistic approach to beauty. Every treatment is designed individually — because every client is unique.",
+    "footer": "Since 2016 in Warsaw"
+  },
+  "services": {
+    "label": "Our services",
+    "titleLine1": "Rituals created",
+    "titleLine2": "for you",
+    "hint": "Hover over a card or tap it to see treatment details.",
+    "items": {
+      "01": { "title": "Manicure", "category": "Hands & Nails", "description": "Classic manicure, hybrid gel and cuticle care. We use only certified premium products that are safe for your nails." },
+      "02": { "title": "Pedicure", "category": "Feet & Nails", "description": "Comprehensive foot care: SPA pedicure, medical pedicure, nail styling. Regeneration and refreshment of tired feet in a relaxing atmosphere." },
+      "03": { "title": "Facial treatment", "category": "Face & Skin", "description": "Personalised facial rituals tailored to your skin type. Cleansing, hydration, brightening — results visible from the very first visit." },
+      "04": { "title": "Relaxation massage", "category": "Body & Wellness", "description": "Full-body massages using Swedish and aromatherapy techniques. We reduce muscle tension and restore harmony between body and mind." },
+      "05": { "title": "Eyebrow styling", "category": "Brows & Lashes", "description": "Precise eyebrow shaping and correction using thread and wax techniques. Shape design tailored to facial features by a certified brow artist." },
+      "06": { "title": "Prestige Ritual", "category": "Luxury Package", "description": "Our flagship 3-hour ritual combining facial treatment, back and hand massage, and aromatherapy. The complete luxury beauty experience." }
+    }
+  },
+  "cta": {
+    "label": "Online booking",
+    "subLabel": "Book your ritual",
+    "button": "Book an appointment",
+    "perk1": "24/7 online booking",
+    "perk2": "Appointments Mon.–Sat.",
+    "perk3": "SMS confirmation"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Find us",
+    "titleAccent": "in Warsaw",
+    "directions": "Open in Google Maps",
+    "weekdays": "Monday — Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "hoursLabel": "Opening hours"
+  },
+  "footer": {
+    "description": "Luxury beauty studio in Warsaw. Care rituals for the soul and body.",
+    "copyright": "All rights reserved.",
+    "navTitle": "Navigation"
+  },
+  "booking": {
+    "backLink": "← Back to homepage",
+    "label": "Online booking",
+    "title": "Book your",
+    "titleAccent": "RAW RITUAL",
+    "description": "Choose a service, specialist and appointment time. You will receive an SMS confirmation.",
+    "stepService": "Service",
+    "stepSpecialist": "Specialist",
+    "stepDate": "Date",
+    "stepConfirmation": "Confirmation",
+    "serviceTitle": "Choose a service",
+    "specialistTitle": "Choose a specialist",
+    "dateTitle": "Choose a date",
+    "timeTitle": "Choose a time",
+    "dayNames": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "monthNames": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "summaryTitle": "Your booking",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Send booking",
+    "mobileButton": "Book appointment",
+    "formName": "Full name",
+    "formPhone": "Phone number",
+    "formEmail": "Email address",
+    "formNote": "Notes (optional)",
+    "successTitle": "Booking confirmed!",
+    "successSubtitle": "We look forward to seeing you.",
+    "successBack": "Back to homepage",
+    "services": {
+      "manicure": "Manicure",
+      "pedicure": "Pedicure",
+      "twarz": "Facial treatment",
+      "masaz": "Relaxation massage",
+      "brwi": "Eyebrow styling",
+      "prestige": "Prestige Ritual"
+    },
+    "specialistRoles": {
+      "anna": "SPA & Facial Specialist",
+      "marta": "Manicure & Pedicure",
+      "julia": "Massage & Body Rituals"
+    }
+  },
+  "lang": {
+    "de": "Deutsch",
+    "pl": "Polski",
+    "fr": "Français",
+    "it": "Italiano",
+    "en": "English"
+  },
+  "meta": {
+    "homeTitle": "RAW RITUAL — Luxury Beauty Studio",
+    "homeDescription": "RAW RITUAL is an exclusive beauty studio in Warsaw. Facial treatments, manicure, massages and cosmetic rituals. Book online.",
+    "bookingTitle": "Online booking — RAW RITUAL",
+    "bookingDescription": "Book your appointment at RAW RITUAL online. Choose a service, time slot and specialist."
+  }
+}

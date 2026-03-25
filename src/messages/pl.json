@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "O nas",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "booking": "Rezerwacja"
+  },
+  "hero": {
+    "label": "Luksusowy Salon Beauty",
+    "description": "Chwile, które pielęgnują. Rytuały, które przemieniają.",
+    "button": "Odkryj"
+  },
+  "about": {
+    "label": "O nas",
+    "lines": [
+      "Wierzymy, że piękno",
+      "rodzi się z autentyczności.",
+      "RAW RITUAL to przestrzeń,",
+      "gdzie pielęgnacja ciała",
+      "staje się prawdziwym rytuałem."
+    ],
+    "description": "Nasz zespół doświadczonych specjalistek łączy nowoczesne technologie z holistycznym podejściem do urody. Każdy zabieg projektujemy indywidualnie — bo każda Klientka jest wyjątkowa.",
+    "footer": "Od 2016 roku w Warszawie"
+  },
+  "services": {
+    "label": "Nasze usługi",
+    "titleLine1": "Rytuały stworzone",
+    "titleLine2": "dla Ciebie",
+    "hint": "Najedź na kartę lub dotknij jej, by poznać szczegóły zabiegu.",
+    "items": {
+      "01": { "title": "Manicure", "category": "Dłonie & Paznokcie", "description": "Klasyczny manicure, stylizacja hybrydowa oraz pielęgnacja skórek. Używamy wyłącznie certyfikowanych produktów premium bezpiecznych dla Twoich paznokci." },
+      "02": { "title": "Pedicure", "category": "Stopy & Paznokcie", "description": "Kompleksowa pielęgnacja stóp: SPA pedicure, medyczny pedicure, stylizacja paznokci. Regeneracja i odświeżenie zmęczonych stóp w relaksującej atmosferze." },
+      "03": { "title": "Pielęgnacja twarzy", "category": "Twarz & Cera", "description": "Spersonalizowane rytuały twarzowe dopasowane do Twojego typu skóry. Oczyszczanie, nawilżanie, rozświetlanie — efekty widoczne od pierwszej wizyty." },
+      "04": { "title": "Masaż relaksacyjny", "category": "Ciało & Wellness", "description": "Masaże całego ciała techniką szwedzką i aromaterapeutyczną. Redukujemy napięcia mięśniowe i przywracamy harmonię ciała i umysłu." },
+      "05": { "title": "Stylizacja brwi", "category": "Brwi & Rzęsy", "description": "Precyzyjna stylizacja i regulacja brwi metodą nici oraz wosku. Projektowanie kształtu dopasowanego do rysów twarzy przez certyfikowaną artystkę brwi." },
+      "06": { "title": "Rytuał Prestige", "category": "Luksusowy Pakiet", "description": "Nasz flagowy, 3-godzinny rytuał łączący pielęgnację twarzy, masaż pleców i dłoni oraz aromaterapię. Kompletne doświadczenie luksusowego beauty." }
+    }
+  },
+  "cta": {
+    "label": "Rezerwacja online",
+    "subLabel": "Zarezerwuj swój rytuał",
+    "button": "Zarezerwuj wizytę",
+    "perk1": "Rezerwacja 24/7 online",
+    "perk2": "Wizyty od pon. do sob.",
+    "perk3": "Potwierdzenie SMS"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Znajdź nas",
+    "titleAccent": "w Warszawie",
+    "directions": "Otwórz w Google Maps",
+    "weekdays": "Poniedziałek — Piątek",
+    "saturday": "Sobota",
+    "sunday": "Niedziela",
+    "closed": "Zamknięte",
+    "hoursLabel": "Godziny otwarcia"
+  },
+  "footer": {
+    "description": "Luksusowy salon beauty w Warszawie. Rytuały pielęgnacyjne dla duszy i ciała.",
+    "copyright": "Wszelkie prawa zastrzeżone.",
+    "navTitle": "Nawigacja"
+  },
+  "booking": {
+    "backLink": "← Powrót do strony głównej",
+    "label": "Rezerwacja online",
+    "title": "Zarezerwuj swój",
+    "titleAccent": "RAW RITUAL",
+    "description": "Wybierz usługę, specjalistkę i dogodny termin. Potwierdzenie otrzymasz SMS-em.",
+    "stepService": "Usługa",
+    "stepSpecialist": "Specjalistka",
+    "stepDate": "Termin",
+    "stepConfirmation": "Potwierdzenie",
+    "serviceTitle": "Wybierz usługę",
+    "specialistTitle": "Wybierz specjalistkę",
+    "dateTitle": "Wybierz datę",
+    "timeTitle": "Wybierz godzinę",
+    "dayNames": ["Nd", "Pn", "Wt", "Śr", "Cz", "Pt", "So"],
+    "monthNames": ["Sty", "Lut", "Mar", "Kwi", "Maj", "Cze", "Lip", "Sie", "Wrz", "Paź", "Lis", "Gru"],
+    "summaryTitle": "Twoja rezerwacja",
+    "next": "Dalej",
+    "back": "Wstecz",
+    "submit": "Wyślij rezerwację",
+    "mobileButton": "Zarezerwuj termin",
+    "formName": "Imię i nazwisko",
+    "formPhone": "Numer telefonu",
+    "formEmail": "Adres e-mail",
+    "formNote": "Uwagi (opcjonalnie)",
+    "successTitle": "Rezerwacja potwierdzona!",
+    "successSubtitle": "Do zobaczenia wkrótce.",
+    "successBack": "Powrót do strony głównej",
+    "services": {
+      "manicure": "Manicure",
+      "pedicure": "Pedicure",
+      "twarz": "Pielęgnacja twarzy",
+      "masaz": "Masaż relaksacyjny",
+      "brwi": "Stylizacja brwi",
+      "prestige": "Rytuał Prestige"
+    },
+    "specialistRoles": {
+      "anna": "Specjalistka SPA & Twarz",
+      "marta": "Manicurzystka & Pedicurzystka",
+      "julia": "Masażystka & Rytuały ciała"
+    }
+  },
+  "lang": {
+    "de": "Deutsch",
+    "pl": "Polski",
+    "fr": "Français",
+    "it": "Italiano",
+    "en": "English"
+  },
+  "meta": {
+    "homeTitle": "RAW RITUAL — Luksusowy Salon Beauty",
+    "homeDescription": "RAW RITUAL to ekskluzywny salon beauty w Warszawie. Pielęgnacja twarzy, manicure, masaże i rytuały kosmetyczne. Zarezerwuj wizytę online.",
+    "bookingTitle": "Rezerwacja online — RAW RITUAL",
+    "bookingDescription": "Zarezerwuj wizytę w RAW RITUAL online. Wybierz usługę, termin i specjalistkę."
+  }
+}
