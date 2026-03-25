@@ -29,6 +29,7 @@ export function HeroImage({ width, height, radius, scale, src }: Props) {
           alt="RAW RITUAL — Luksusowy salon beauty"
           fill
           priority
+          fetchPriority="high"
           sizes="100vw"
           style={{ objectFit: "cover", objectPosition: "center" }}
         />

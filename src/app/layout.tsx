@@ -8,6 +8,9 @@ import LenisProvider from "@/components/LenisProvider";
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
+  other: {
+    'fetchpriority': 'high',
+  },
 };
 
 const playfair = Playfair_Display({
