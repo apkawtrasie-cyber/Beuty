@@ -22,12 +22,27 @@ export function ServiceCard({ service, index, priority = false }: ServiceCardPro
   const translatedCategory = t(`items.${service.id}.category`);
   const translatedDescription = t(`items.${service.id}.description`);
 
+  // First row (0,1,2): from right - reverse order delays
+  // Second row (3,4,5): from left - normal order delays
+  const getDelay = (idx: number) => {
+    const posInRow = idx % 3;
+    const isFirstRow = idx < 3;
+    
+    if (isFirstRow) {
+      // First row: right to left (2->1->0)
+      return 0.5 + (2 - posInRow) * 0.15;
+    } else {
+      // Second row: left to right (0->1->2)
+      return 0.5 + posInRow * 0.15;
+    }
+  };
+
   return (
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 40 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.7, delay: (index % 3) * 0.12, ease: "easeOut" }}
+      transition={{ duration: 0.7, delay: getDelay(index), ease: "easeOut" }}
       className="relative overflow-hidden bg-[var(--color-cream)] cursor-pointer group"
       style={{ aspectRatio: "3/4" }}
       onMouseEnter={() => setIsHovered(true)}

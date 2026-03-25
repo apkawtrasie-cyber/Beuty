@@ -48,7 +48,7 @@ export default function ServicesSection() {
             initial={{ opacity: 0, y: 16 }}
             animate={isHeadingInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.22, ease: "easeOut" }}
-            className="text-[var(--color-charcoal)]/60 max-w-sm"
+            className="text-[var(--color-charcoal)]/60"
           >
             {t("hint")}
           </motion.p>
