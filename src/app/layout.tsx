@@ -17,14 +17,18 @@ const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
   display: "swap",
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "600", "700"],
+  preload: true,
+  adjustFontFallback: true,
 });
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
   display: "swap",
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "500", "600"],
+  preload: true,
+  adjustFontFallback: true,
 });
 
 export const viewport: Viewport = {
