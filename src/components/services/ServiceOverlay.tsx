@@ -36,8 +36,10 @@ export const ServiceOverlay = ({ service, isHovered }: ServiceOverlayProps) => {
       <div className="w-full flex justify-center" style={{ position: "relative", zIndex: 10 }}>
         <Link
           href="/rezerwacja"
-          className="inline-block tracking-luxury bg-transparent hover:bg-white hover:text-black transition-colors duration-300"
+          className="inline-block tracking-luxury bg-transparent hover:bg-white transition-colors duration-300"
           style={{ color: "#FFFFFF", border: "1px solid #FFFFFF", padding: "12px 20px", fontSize: "clamp(0.8rem,1.1vw,0.95rem)", letterSpacing: "0.15em" }}
+          onMouseEnter={(e) => (e.currentTarget.style.color = "#000000")}
+          onMouseLeave={(e) => (e.currentTarget.style.color = "#FFFFFF")}
           onClick={(e) => e.stopPropagation()}
         >
           {t("booking")}
