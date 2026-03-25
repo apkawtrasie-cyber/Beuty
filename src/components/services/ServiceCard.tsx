@@ -30,11 +30,11 @@ export function ServiceCard({ service, index, priority = false }: ServiceCardPro
     
     if (isFirstRow) {
       // First row: position 0 (left) = 0.5s, position 1 (middle) = 0.65s, position 2 (right) = 0.9s
-      const delays = [0.5, 0.65, 0.9];
+      const delays = [0.7, 0.95, 1.3];
       return delays[posInRow];
     } else {
       // Second row: position 0 (left) = 0.9s, position 1 (middle) = 0.65s, position 2 (right) = 0.5s
-      const delays = [0.9, 0.65, 0.5];
+      const delays = [1.3, 0.95, 0.7];
       return delays[posInRow];
     }
   };

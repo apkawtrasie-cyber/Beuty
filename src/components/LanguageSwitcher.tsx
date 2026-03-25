@@ -1,5 +1,6 @@
 "use client";
 
+import { useTransition } from "react";
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -16,10 +17,12 @@ export function LanguageSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const [isPending, startTransition] = useTransition();
 
   function handleChange(next: string) {
-    router.push(pathname, { locale: next });
-    window.location.reload();
+    startTransition(() => {
+      router.replace(pathname, { locale: next });
+    });
   }
 
   return (
@@ -28,6 +31,7 @@ export function LanguageSwitcher() {
         <span key={loc} className="flex items-center">
           <button
             onClick={() => handleChange(loc)}
+            disabled={isPending || loc === locale}
             className="tracking-[0.1em] transition-colors duration-200"
             style={{
               fontSize: "10px",
@@ -36,7 +40,8 @@ export function LanguageSwitcher() {
               padding: "2px 3px",
               background: "none",
               border: "none",
-              cursor: loc === locale ? "default" : "pointer",
+              cursor: loc === locale || isPending ? "default" : "pointer",
+              opacity: isPending ? 0.5 : 1,
             }}
             aria-label={loc.toUpperCase()}
             aria-current={loc === locale ? "true" : undefined}
