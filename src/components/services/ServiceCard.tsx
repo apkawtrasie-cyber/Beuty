@@ -22,18 +22,20 @@ export function ServiceCard({ service, index, priority = false }: ServiceCardPro
   const translatedCategory = t(`items.${service.id}.category`);
   const translatedDescription = t(`items.${service.id}.description`);
 
-  // First row (0,1,2): from right - reverse order delays
-  // Second row (3,4,5): from left - normal order delays
+  // First row (0,1,2): from right - delays: 0.5s, 0.65s, 0.9s
+  // Second row (3,4,5): from left - delays: 0.9s, 0.65s, 0.5s
   const getDelay = (idx: number) => {
     const posInRow = idx % 3;
     const isFirstRow = idx < 3;
     
     if (isFirstRow) {
-      // First row: right to left (2->1->0)
-      return 0.5 + (2 - posInRow) * 0.15;
+      // First row: position 0 (left) = 0.5s, position 1 (middle) = 0.65s, position 2 (right) = 0.9s
+      const delays = [0.5, 0.65, 0.9];
+      return delays[posInRow];
     } else {
-      // Second row: left to right (0->1->2)
-      return 0.5 + posInRow * 0.15;
+      // Second row: position 0 (left) = 0.9s, position 1 (middle) = 0.65s, position 2 (right) = 0.5s
+      const delays = [0.9, 0.65, 0.5];
+      return delays[posInRow];
     }
   };
 
