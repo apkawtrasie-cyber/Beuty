@@ -41,12 +41,12 @@ export const STEPS = ["Usługa", "Specjalistka", "Termin", "Potwierdzenie"] as c
 // ─── Services ───────────────────────────────────────────────
 
 export const SERVICES: Service[] = [
-  { id: "manicure",  label: "Manicure",          duration: "60",  price: "150" },
-  { id: "pedicure",  label: "Pedicure",          duration: "75",  price: "180" },
-  { id: "twarz",     label: "Pielęgnacja twarzy", duration: "90",  price: "280" },
-  { id: "masaz",     label: "Masaż relaksacyjny", duration: "60",  price: "220" },
-  { id: "brwi",      label: "Stylizacja brwi",    duration: "45",  price: "120" },
-  { id: "prestige",  label: "Rytuał Prestige",    duration: "180", price: "650" },
+  { id: "01",  label: "Manicure",          duration: "60",  price: "150" },
+  { id: "02",  label: "Pedicure",          duration: "75",  price: "180" },
+  { id: "03",  label: "Pielęgnacja twarzy", duration: "90",  price: "280" },
+  { id: "04",  label: "Masaż relaksacyjny", duration: "60",  price: "220" },
+  { id: "05",  label: "Stylizacja brwi",    duration: "45",  price: "120" },
+  { id: "06",  label: "Rytuał Prestige",    duration: "180", price: "650" },
 ];
 
 // ─── Specialists ─────────────────────────────────────────────
